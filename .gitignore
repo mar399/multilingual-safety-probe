@@ -1,0 +1,32 @@
+﻿# API keys and secrets
+.env
+*.env
+
+# Prompt battery - private, never commit
+battery/*.jsonl
+battery/*.json
+!battery/README.md
+
+# Results - local only
+results/
+
+# Prompts directory (alternate location some scripts may use)
+prompts/
+
+# Development/debug scripts not meant for the public repo
+show_prompts.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
